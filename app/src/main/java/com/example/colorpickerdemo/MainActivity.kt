@@ -10,8 +10,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ColorPickerDemoTheme {
-//                ColorPicker()
-                ImageColorPicker()
+                ColorPicker()
+//                ImageColorPicker()
             }
         }
     }
